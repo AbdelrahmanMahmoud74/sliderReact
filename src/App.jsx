@@ -16,7 +16,7 @@ setWidth(carouselRef.current.scrollWidth - carouselRef.current.offsetWidth)
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <motion.div ref={carouselRef} className="carousel"whileTap={{cursor:"grabbing"}}>
-    <motion.div drag="x" dragConstraints={{right:0, left:-width}}  className='inner-carousel'>
+    <motion.div drag="x" dragConstraints={{right:0, left:-400}}  className='inner-carousel'>
       {images.map((image)=> (
         <motion.div className='item' key={image}>
           <img src={image} />
