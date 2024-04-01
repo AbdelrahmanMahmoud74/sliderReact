@@ -1,0 +1,55 @@
+body{
+overflow: hidden;
+
+}
+.carousel{
+  
+  cursor: grab;
+ 
+}
+.inner-carousel{
+  display:flex;
+  
+}
+
+.item{
+  min-width:20rem;
+  min-height: 25rem;
+  padding:40px 10px;
+ 
+}
+.item img{
+  width:250px;
+border-radius: 2rem;
+  height: 400px;
+  pointer-events: none;
+ 
+}
+@media only screen and (max-width: 900px) {
+  body{
+    overflow: hidden;
+  }
+  .carousel{
+  
+    cursor: grab;
+    
+   
+  }
+  .inner-carousel{
+    display: inline;
+    
+  }
+  .item{
+    min-width:20rem;
+    min-height: 25rem;
+   padding:20px 80px;
+   
+  }
+  .item img{
+    width:250px;
+  border-radius: 2rem;
+    height: 400px;
+    pointer-events: none;
+   
+  }
+}
